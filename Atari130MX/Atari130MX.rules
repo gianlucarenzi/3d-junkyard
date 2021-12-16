@@ -5,13 +5,13 @@
   )
   (autoroute_settings
     (fanout off)
-    (autoroute on)
+    (eu.mihosoft.freerouting.autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 8157)
+    (start_pass_no 9)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -63,12 +63,14 @@
     )
   )
   (class "kicad_default"
-    GND "Net-(D1-Pad2)" "Net-(J2-Pad14)" "Net-(J2-Pad13)" "Net-(J2-Pad12)" "Net-(J2-Pad10)" "Net-(J2-Pad9)" "Net-(J2-Pad8)"
-    "Net-(J2-Pad7)" "Net-(J2-Pad6)" "Net-(J2-Pad5)" "Net-(J2-Pad4)" "Net-(J2-Pad3)" "Net-(J2-Pad2)" "Net-(J0-Pad24)" "Net-(J0-Pad23)"
-    "Net-(J0-Pad22)" "Net-(J0-Pad21)" "Net-(J0-Pad20)" "Net-(J0-Pad19)" "Net-(J0-Pad18)" "Net-(J0-Pad17)" "Net-(J0-Pad16)" "Net-(J0-Pad15)"
-    "Net-(J0-Pad14)" "Net-(J0-Pad13)" "Net-(J0-Pad12)" "Net-(J0-Pad11)" "Net-(J0-Pad10)" "Net-(J0-Pad8)" "Net-(J0-Pad6)" "Net-(J0-Pad5)"
-    "Net-(J0-Pad4)" "Net-(J0-Pad1)" "Net-(U1-Pad3)" "Net-(U1-Pad8)" "Net-(U1-Pad13)" "Net-(U1-Pad18)" "Net-(U1-Pad42)" "Net-(R1-Pad1)"
-    "Net-(J0-Pad9)" "Net-(J0-Pad7)" "Net-(U1-Pad23)" "Net-(U1-Pad28)"
+    GND LED POWER RESET OPTION SELECT START "COL_9"
+    "COL_1" "ROW_6" "COL_7" "COL_8" "ROW_4" "ROW_2" "ROW_1" "ROW_3"
+    "COL_6" "COL_5" "COL_4" "COL_3" "ROW_5" "ROW_8" "ROW_7" "COL_2"
+    "3V3_EN" 3V3 "ADC_VREF" AGND VSYS VBUS SWDIO RUN
+    SWCLK "GPIO26_ADC0" "GPIO27_ADC1" "GPIO28_ADC2" "OUT_FN" LSC "Net-(JP3-Pad2)" "/LED-GP2"
+    "Net-(U1-Pad3)" "Net-(U1-Pad8)" "Net-(U1-Pad13)" "Net-(U1-Pad18)" "Net-(U1-Pad23)" "Net-(U1-Pad28)" "Net-(U1-Pad42)" "Net-(JP1-Pad2)"
+    "Net-(JP2-Pad2)" "Net-(JP4-Pad2)" "Net-(J1-Pad30)" "Net-(J1-Pad29)" "Net-(J1-Pad28)" "Net-(J1-Pad27)" "Net-(J3-Pad18)" "Net-(J3-Pad13)"
+    "Net-(J3-Pad8)" "Net-(J3-Pad3)" "Net-(J4-Pad2)" "Net-(J5-Pad8)" "Net-(J5-Pad3)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
