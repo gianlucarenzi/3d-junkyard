@@ -1589,4 +1589,114 @@ F 3 "" H 10100 8150 59  0001 C CNN
 	1    10100 8150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61BCF557
+P 10700 8750
+F 0 "H1" H 10800 8800 50  0000 L CNN
+F 1 "MountingHole" H 10800 8750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10700 8750 50  0001 C CNN
+F 3 "~" H 10700 8750 50  0001 C CNN
+	1    10700 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61BD1CBA
+P 11400 8750
+F 0 "H2" H 11500 8800 50  0000 L CNN
+F 1 "MountingHole" H 11500 8750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 11400 8750 50  0001 C CNN
+F 3 "~" H 11400 8750 50  0001 C CNN
+	1    11400 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61BD220D
+P 12100 8750
+F 0 "H3" H 12200 8800 50  0000 L CNN
+F 1 "MountingHole" H 12200 8750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 12100 8750 50  0001 C CNN
+F 3 "~" H 12100 8750 50  0001 C CNN
+	1    12100 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61BD2757
+P 12800 8750
+F 0 "H4" H 12900 8800 50  0000 L CNN
+F 1 "MountingHole" H 12900 8750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 12800 8750 50  0001 C CNN
+F 3 "~" H 12800 8750 50  0001 C CNN
+	1    12800 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L RetroBitLab:LOGO L5
+U 1 1 61C03071
+P 9650 8200
+F 0 "L5" H 9700 8300 59  0000 L CNN
+F 1 "LOGO" H 9700 8150 59  0000 L CNN
+F 2 "Atari130MX:OSH_logo" H 9650 8200 59  0001 C CNN
+F 3 "" H 9650 8200 59  0001 C CNN
+	1    9650 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RetroBitLab:LOGO L2
+U 1 1 61C051ED
+P 9300 8200
+F 0 "L2" H 9350 8300 59  0000 L CNN
+F 1 "LOGO" H 9350 8150 59  0000 L CNN
+F 2 "Atari130MX:AtariXE_Matrix" H 9300 8200 59  0001 C CNN
+F 3 "" H 9300 8200 59  0001 C CNN
+	1    9300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RetroBitLab:LOGO L3
+U 1 1 61C05952
+P 9300 8500
+F 0 "L3" H 9350 8600 59  0000 L CNN
+F 1 "LOGO" H 9350 8450 59  0000 L CNN
+F 2 "Atari130MX:Decent_logo" H 9300 8500 59  0001 C CNN
+F 3 "" H 9300 8500 59  0001 C CNN
+	1    9300 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RetroBitLab:LOGO L6
+U 1 1 61C06596
+P 9650 8500
+F 0 "L6" H 9700 8600 59  0000 L CNN
+F 1 "LOGO" H 9700 8450 59  0000 L CNN
+F 2 "Atari130MX:ScreamingAtTheRadio" H 9650 8500 59  0001 C CNN
+F 3 "" H 9650 8500 59  0001 C CNN
+	1    9650 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RetroBitLab:LOGO L4
+U 1 1 61C06C1E
+P 9300 8800
+F 0 "L4" H 9350 8900 59  0000 L CNN
+F 1 "LOGO" H 9350 8750 59  0000 L CNN
+F 2 "Atari130MX:OSH_logo" H 9300 8800 59  0001 C CNN
+F 3 "" H 9300 8800 59  0001 C CNN
+	1    9300 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RetroBitLab:LOGO L7
+U 1 1 61C0E3DB
+P 10050 8500
+F 0 "L7" H 10100 8600 59  0000 L CNN
+F 1 "LOGO" H 10100 8450 59  0000 L CNN
+F 2 "Atari130MX:ScreamingAtTheRadio" H 10050 8500 59  0001 C CNN
+F 3 "" H 10050 8500 59  0001 C CNN
+	1    10050 8500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
